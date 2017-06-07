@@ -90,8 +90,7 @@ function cube(num) {
 function raiseToPower(num, exponent) {
   //raise num to whatever power is passed in as exponent
   //~ Math.pow(num, exponent);
-  var result = 1;
-  for (var i = 0; i < exponent; i++) { result *= num; }
+  for (var i = 0, result = 1; i < exponent; i++) { result *= num; }
   return result;
 }
 
@@ -108,8 +107,7 @@ function roundUp(num) {
 function addExclamationPoint(str) {
   //add an exclamation point to the end of str and return the new string
   //'hello world' -> 'hello world!'
-  str += '!';
-  return str;
+  return str + '!';
 }
 
 function combineNames(firstName, lastName) {
