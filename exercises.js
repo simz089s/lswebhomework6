@@ -194,6 +194,16 @@ function getRectangularPrismVolume(length, width, height) {
 
 //~ console.log(getRectangularPrismVolume(3,4,5));
 
+/*
+ * Functions : An operation that transforms something you give it into something else. It can transform a number into a number by multiplying it for example, or a number into a word using a code as another example.
+ * 
+ * Parameters : Information, options or values needed by a function to work. A function that multiplies what you give it needs a number for example.
+ * 
+ * Arguments : The actual values you pass to a function for its parameters. I can pass the argument '5' to someMultiplyFunction(5) for example.
+ * 
+ * 'if' statements : Block of code or instructions that only happen if (a) certain condition(s) is true or met.
+ */
+
 //Do not modify code below this line.
 ////--------------------------------
 
